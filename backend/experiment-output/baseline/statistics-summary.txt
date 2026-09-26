@@ -1,0 +1,24 @@
+Experiment matrix summary - total runs: 30
+
+# experiment family: baseline (3 plans, 30 runs)
+=== baseline-SMALL | dataset=SMALL | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=703.000000 median=715.000000 min=610.000000 max=765.000000 sd=48.716869 (n=10)
+  softPenalty: mean=28.626667 median=29.300000 min=24.200000 max=31.200000 sd=2.421753 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=105.400000 median=87.500000 min=78.000000 max=251.000000 sd=52.171086 (n=10)
+=== baseline-MEDIUM | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=3390.500000 median=3375.000000 min=3090.000000 max=3685.000000 sd=169.778450 (n=10)
+  softPenalty: mean=135.713333 median=135.100000 min=124.866667 max=147.066667 sd=6.448125 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=249.300000 median=246.000000 min=224.000000 max=296.000000 sd=19.356595 (n=10)
+=== baseline-LARGE | dataset=LARGE | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=9759.000000 median=9807.500000 min=9270.000000 max=10190.000000 sd=330.082481 (n=10)
+  softPenalty: mean=383.440000 median=385.633333 min=365.133333 max=405.200000 sd=11.803042 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=848.400000 median=830.000000 min=784.000000 max=951.000000 sd=61.977057 (n=10)

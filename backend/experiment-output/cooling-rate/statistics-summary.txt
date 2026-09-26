@@ -1,0 +1,38 @@
+Experiment matrix summary - total runs: 50
+
+# experiment family: cooling-rate (5 plans, 50 runs, seeds=all)
+=== cooling-0.85 | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.850000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=4680.500000 median=4705.000000 min=4260.000000 max=4905.000000 sd=204.809532 (n=10)
+  softPenalty: mean=180.386667 median=182.533333 min=166.266667 max=187.533333 sd=6.376407 (n=10)
+  iterations: mean=57.000000 median=57.000000 min=57.000000 max=57.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=1140.000000 median=1140.000000 min=1140.000000 max=1140.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=130.600000 median=107.500000 min=98.000000 max=317.000000 sd=66.327805 (n=10)
+=== cooling-0.9 | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.900000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=4241.000000 median=4235.000000 min=4000.000000 max=4465.000000 sd=134.470154 (n=10)
+  softPenalty: mean=166.420000 median=165.466667 min=159.333333 max=175.666667 sd=5.006667 (n=10)
+  iterations: mean=88.000000 median=88.000000 min=88.000000 max=88.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=1760.000000 median=1760.000000 min=1760.000000 max=1760.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=124.800000 median=118.000000 min=111.000000 max=160.000000 sd=15.208185 (n=10)
+=== cooling-0.95 | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=3390.500000 median=3375.000000 min=3090.000000 max=3685.000000 sd=169.778450 (n=10)
+  softPenalty: mean=135.713333 median=135.100000 min=124.866667 max=147.066667 sd=6.448125 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=248.000000 median=248.000000 min=233.000000 max=270.000000 sd=11.972190 (n=10)
+=== cooling-0.99 | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.990000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=2467.000000 median=2490.000000 min=2315.000000 max=2600.000000 sd=86.833173 (n=10)
+  softPenalty: mean=98.380000 median=99.233333 min=90.600000 max=103.600000 sd=4.180029 (n=10)
+  iterations: mean=917.000000 median=917.000000 min=917.000000 max=917.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=18340.000000 median=18340.000000 min=18340.000000 max=18340.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=1229.000000 median=1231.500000 min=1202.000000 max=1242.000000 sd=11.244752 (n=10)
+=== cooling-0.995 | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.995000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=2281.000000 median=2280.000000 min=2140.000000 max=2475.000000 sd=90.670343 (n=10)
+  softPenalty: mean=88.380000 median=88.400000 min=82.000000 max=97.666667 sd=4.334080 (n=10)
+  iterations: mean=1838.000000 median=1838.000000 min=1838.000000 max=1838.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=36760.000000 median=36760.000000 min=36760.000000 max=36760.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=2438.800000 median=2432.500000 min=2399.000000 max=2492.000000 sd=31.881029 (n=10)

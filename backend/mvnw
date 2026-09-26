@@ -1,0 +1,30 @@
+#!/bin/sh
+# Maven Wrapper script for Windows Git Bash
+# Uses Windows-style paths for Java classpath compatibility
+
+set -e
+
+MAVEN_PROJECTBASEDIR="C:/Users/shayin/WorkBuddy AI/2026-09-05-11-57-48/scheduling-system/backend"
+MAVEN_HOME="C:/Users/shayin/.m2/wrapper/dists/apache-maven-3.9.6"
+MAVEN_CMD="$MAVEN_HOME/bin/mvn"
+
+# If Maven not downloaded yet, download it
+if [ ! -f "$MAVEN_HOME/boot/plexus-classworlds-2.7.0.jar" ]; then
+    echo "Maven not found, downloading..."
+    TMP_DIR=$(mktemp -d)
+    curl -sL "https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.6/apache-maven-3.9.6-bin.zip" -o "$TMP_DIR/maven.zip"
+    mkdir -p "$MAVEN_HOME"
+    unzip -q "$TMP_DIR/maven.zip" -d "$TMP_DIR"
+    cp -r "$TMP_DIR/apache-maven-3.9.6"/* "$MAVEN_HOME/"
+    rm -rf "$TMP_DIR"
+    echo "Maven downloaded to $MAVEN_HOME"
+fi
+
+# Run Maven directly via Java (avoids shell script path issues on Windows)
+exec java \
+    -classpath "$MAVEN_HOME/boot/plexus-classworlds-2.7.0.jar" \
+    -Dclassworlds.conf="$MAVEN_HOME/bin/m2.conf" \
+    -Dmaven.home="$MAVEN_HOME" \
+    -Dmaven.multiModuleProjectDirectory="$MAVEN_PROJECTBASEDIR" \
+    org.codehaus.plexus.classworlds.launcher.Launcher \
+    "$@"

@@ -1,0 +1,45 @@
+Experiment matrix summary - total runs: 60
+
+# experiment family: initial-strategy (6 plans, 60 runs, seeds=all)
+=== initial-strategy-SMALL-GREEDY | dataset=SMALL | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=703.000000 median=715.000000 min=610.000000 max=765.000000 sd=48.716869 (n=10)
+  softPenalty: mean=28.626667 median=29.300000 min=24.200000 max=31.200000 sd=2.421753 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=98.800000 median=85.000000 min=74.000000 max=228.000000 sd=45.897954 (n=10)
+=== initial-strategy-SMALL-RANDOM | dataset=SMALL | datasetSeed=20260901 | strategy=RANDOM | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=710.500000 median=712.500000 min=640.000000 max=770.000000 sd=48.157727 (n=10)
+  softPenalty: mean=29.160000 median=30.133333 min=26.200000 max=31.800000 sd=2.058934 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=85.700000 median=85.500000 min=67.000000 max=106.000000 sd=13.013241 (n=10)
+=== initial-strategy-MEDIUM-GREEDY | dataset=MEDIUM | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=3390.500000 median=3375.000000 min=3090.000000 max=3685.000000 sd=169.778450 (n=10)
+  softPenalty: mean=135.713333 median=135.100000 min=124.866667 max=147.066667 sd=6.448125 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=246.700000 median=245.500000 min=229.000000 max=267.000000 sd=11.382735 (n=10)
+=== initial-strategy-MEDIUM-RANDOM | dataset=MEDIUM | datasetSeed=20260901 | strategy=RANDOM | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=3496.000000 median=3485.000000 min=3430.000000 max=3585.000000 sd=55.166415 (n=10)
+  softPenalty: mean=141.120000 median=140.600000 min=135.733333 max=148.066667 sd=3.341885 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=745.000000 median=749.500000 min=686.000000 max=791.000000 sd=37.832966 (n=10)
+=== initial-strategy-LARGE-GREEDY | dataset=LARGE | datasetSeed=20260901 | strategy=GREEDY | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=9759.000000 median=9807.500000 min=9270.000000 max=10190.000000 sd=330.082481 (n=10)
+  softPenalty: mean=383.440000 median=385.633333 min=365.133333 max=405.200000 sd=11.803042 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=815.900000 median=815.000000 min=762.000000 max=895.000000 sd=40.388255 (n=10)
+=== initial-strategy-LARGE-RANDOM | dataset=LARGE | datasetSeed=20260901 | strategy=RANDOM | coolingRate=0.950000 | neighborsPerTemp=20 | seeds=10
+  feasibleCount/rate = 10/10 (100.000000%)
+  bestEnergy: mean=9675.000000 median=9632.500000 min=9405.000000 max=10165.000000 sd=238.874677 (n=10)
+  softPenalty: mean=381.433333 median=383.033333 min=365.866667 max=393.800000 sd=9.012707 (n=10)
+  iterations: mean=180.000000 median=180.000000 min=180.000000 max=180.000000 sd=0.000000 (n=10)
+  totalNeighborEvals: mean=3600.000000 median=3600.000000 min=3600.000000 max=3600.000000 sd=0.000000 (n=10)
+  runtimeMs: mean=7528.400000 median=7484.000000 min=7287.000000 max=8209.000000 sd=260.015897 (n=10)

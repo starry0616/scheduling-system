@@ -1,0 +1,40 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/scheduling_system?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+app:
+  demo-data:
+    # 演示数据初始化开关(8.3-S 第一批 C2):
+    #   true  - 启动时在"尚未初始化过演示数据"的库中插入一套稳定可重复的答辩演示数据(幂等)
+    #   false - 完全不执行演示数据初始化
+    # 判据: course 表不存在演示标记课程(CS2201)时执行, 已存在则整体跳过,
+    #       绝不重复插入 / 覆盖 / 删除任何已有数据。
+    enabled: true
+
+jwt:
+  secret: YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXoxMjM0NTY3ODkwYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXo=
+  expiration: 86400000  # 24 hours in milliseconds
+
+logging:
+  level:
+    com.scheduling: info
+    org.hibernate.SQL: warn

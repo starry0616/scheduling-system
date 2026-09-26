@@ -1,0 +1,24 @@
+{
+  "name": "scheduling-system-frontend",
+  "version": "1.0.0",
+  "description": "基于模拟退火算法的自动排课系统 - 前端",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "pinia": "^2.1.7",
+    "element-plus": "^2.7.2",
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.7.2",
+    "echarts": "^5.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.11"
+  }
+}
